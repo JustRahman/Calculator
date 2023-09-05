@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <title>Bookmark</title>
+</head>
+
+<body>
+    <div class="container-xl my-5">
+        <div class="row justify-content-center">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header font-weight-bold text-right" id="result">
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="row no-gutters">
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block text-secondary font-weight-bold border rounded-0" onclick="number(7)">7</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block text-secondary font-weight-bold border rounded-0" onclick="number(8)">8</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block text-secondary font-weight-bold border rounded-0" onclick="number(9)">9</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block font-weight-bold border rounded-0" onclick="operator('/')">÷</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block text-secondary font-weight-bold border rounded-0" onclick="number(4)">4</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block text-secondary font-weight-bold border rounded-0" onclick="number(5)">5</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block text-secondary font-weight-bold border rounded-0" onclick="number(6)">6</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block font-weight-bold border rounded-0" onclick="operator('*')">×</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block text-secondary font-weight-bold border rounded-0" onclick="number(1)">1</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block text-secondary font-weight-bold border rounded-0" onclick="number(2)">2</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block text-secondary font-weight-bold border rounded-0" onclick="number(3)">3</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block font-weight-bold border rounded-0" onclick="operator('-')">-</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block text-secondary font-weight-bold border rounded-0" onclick="number(0)">0</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block font-weight-bold border rounded-0" onclick="point()">.</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block font-weight-bold border rounded-0" onclick="equal()">=</button>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-light btn-lg btn-block font-weight-bold border rounded-0" onclick="operator('+')">+</button>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-light btn-block font-weight-bold border rounded-0" onclick="reset()">C</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/calc.js"></script>
+</body>
+
+</html>
